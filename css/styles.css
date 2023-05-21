@@ -312,13 +312,15 @@ img {
   display: block;
   min-width: 69px;
   height: 48px;
-  border: none;
+  padding: 12px 24px;
+  /* border: none; */
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   color: var(--primary-brand);
   background-color: var(--light);
   border-radius: 4px;
@@ -367,7 +369,7 @@ img {
 /*----------------------------------FOOTER----------------*/
 
 .footer {
-  padding: 100px;
+  padding: 100px 0px;
   background-color: var(--dark);
 }
 .footer-link {
