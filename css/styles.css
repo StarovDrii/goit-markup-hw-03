@@ -123,14 +123,13 @@ img {
   display: flex;
 }
 .header-address-list-item {
-  display: block;
-  padding: 24px 0px;
   margin-right: 40px;
 }
 .header-address-list-item:last-child {
   margin-right: 0;
 }
 .header-address-item {
+  padding: 24px 0px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
